@@ -140,7 +140,7 @@ function App() {
         >Mark all as read</p>
       </div>
       <div>
-        {notificationsData.map((notification) => (
+        {notifications.map((notification) => (
           <Notification key={notification.id} notification={notification} onMarkAsRead={onMarkAsRead} />
         ))}
       </div>

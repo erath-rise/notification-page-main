@@ -29,9 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/public/desktop-screenshot.png)
-
-![](/public/mobile-screentshot.png)
+![](/public/ScreenRecording2.gif)
 
 ### Links
 
