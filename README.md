@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://notification-page-main-eight.vercel.app/)
 
 ## My process
 
@@ -65,5 +65,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Lianne](https://www.your-site.com)
+- Website - [Lianne](https://my-profilo-beta.vercel.app/)
 - Frontend Mentor - [@lianne](https://www.frontendmentor.io/profile/erath-rise)
