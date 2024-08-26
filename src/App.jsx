@@ -113,6 +113,19 @@ function App() {
 
   const unreadCount = notifications.filter(notification => notification.unread).length;
 
+  const markAllAsRead = () => {
+    setNotifications(notifications.map(notification => ({
+      ...notification,
+      unread: false
+    })));
+  };
+
+  const onMarkAsRead = (id) => {
+    setNotifications(notifications.map(notification =>
+      notification.id === id ? { ...notification, unread: false } : notification
+    ));
+  };
+
 
   return (
     <div className='max-w-screen-mobile md:max-w-screen-desktop bg-white p-4 sm:p-8 rounded-2xl max-w-[730px]'>
@@ -122,12 +135,13 @@ function App() {
           <p className='bg-secondaryBlue px-3 text-white rounded-md'>{unreadCount}</p>
         </div>
         <p
+        onClick={markAllAsRead}
           className='text-darkGrayishBlue hover:text-secondaryBlue cursor-pointer focus:outline-none focus:ring-2 focus:ring-secondaryBlue rounded px-2 py-1 transition duration-300'
         >Mark all as read</p>
       </div>
       <div>
         {notificationsData.map((notification) => (
-          <Notification key={notification.id} notification={notification} />
+          <Notification key={notification.id} notification={notification} onMarkAsRead={onMarkAsRead} />
         ))}
       </div>
     </div>
