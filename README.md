@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-notification-page-using-react-and-tailwindcss-tMdec2G01F)
 - Live Site URL: (https://notification-page-main-eight.vercel.app/)
 
 ## My process
